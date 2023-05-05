@@ -1,0 +1,8 @@
+version: "3"
+
+services:
+  my-app:
+    image: simrankukareja/web-app-on-container:v1
+    ports:
+      - "8081:81"
+    restart: always
